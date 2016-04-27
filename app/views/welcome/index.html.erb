@@ -1,0 +1,27 @@
+<body ng-controller="myCtrl" >
+<button ng-click="showMortal()">Add</button>
+    
+     <table class ="table table-striped">
+        <thead>
+         <tr>
+           <th >ID</th>
+           <th >Year</th>
+           <th >Ethnicity</th>
+           <th >Cause_of_death</th>
+           <th >count</th>
+          </tr>        
+        </thead>
+       
+        <tbody>
+          <tr class="animate" ng-repeat="row in mortals">
+            <td> {{row.ID}} </td>
+            <td> {{row.Year}} </td>
+            <td> {{row.Ethnicity}} </td>
+            <td> {{row.Cause_of_Death}} </td>
+            <td> {{row.Count}} </td>
+          </tr>
+       </tbody>
+    </table>
+          
+    
+    

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Id: MyString
+  Year: MyString
+  Ethnicity: MyString
+  Sex: MyString
+  cause_of_death: MyString
+  Count: MyString
+  Percent: MyString
+
+two:
+  Id: MyString
+  Year: MyString
+  Ethnicity: MyString
+  Sex: MyString
+  cause_of_death: MyString
+  Count: MyString
+  Percent: MyString
